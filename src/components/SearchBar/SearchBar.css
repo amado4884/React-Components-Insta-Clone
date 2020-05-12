@@ -6,10 +6,12 @@
   align-items: center;
   background: #ffffff;
 }
+
 .search-form {
   width: 150px;
   font-size: 14px;
 }
+
 .search-form input {
   text-align: center;
   color: #262626;
@@ -17,6 +19,7 @@
 
 .logo-image {
   height: 100%;
+  display: inline-block;
 }
 
 .social-wrapper {
@@ -25,4 +28,19 @@
 
 .social {
   width: 50px;
+}
+
+.social-left {
+  width: 130px;
+  height: 29px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-left svg {
+  border-right: 1px solid;
+  padding-right: 10px;
+  margin-right: 10px;
+  height: 29px;
 }
